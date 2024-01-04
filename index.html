@@ -4,24 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Components</title>
-    <script src="src/components/cardNews.js" defer></script>
-    <script src="src/components/ButtonHello.js" defer></script>
-    <script src="src/components/CardPro.js" defer></script>
+    
+    <title>Web Components</title> 
+
+    <link rel="stylesheet" href="./styles/style.css">
+
+    <script src="src/components/navbar.js" defer></script>   
+    <script src="src/components/simpleCard.js" defer></script>   
+    <script src="src/components/button.js" defer></script>   
+    <script src="src/components/footer.js" defer></script>   
 </head>
 
 <body>
-    <card-news></card-news>
-    <button-hello hello="Ola Mundo!"></button-hello>
-    <button-hello hello="Ciao Mondo!"></button-hello>
-    <card-pro 
+    <div class="container">
+        <nav-bar texto="What is “Hello World” in programming?"></nav-bar>
+        <simple-card title="Hello World!"></simple-card>
+        <but-ton hello="Hello"></but-ton>
+        <foo-ter texto="&copy; 2023 - Marina Barbosa"></foo-ter>
+    </div>
+    <!-- <card-pro 
         autor=""
         title="untitle"
         link-url="google.com"
         photo="assets/poder-darth-vader-960x720.jpg.webp"
         content="lorem impsum lorem impsum lorem impsum lorem impsum "
         >
-    </card-pro>
+    </card-pro> -->
+    
 </body>
 
 </html>

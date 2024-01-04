@@ -54,7 +54,7 @@ class CardPro extends HTMLElement {
             height: 300px;
             border: 2px solid #111;
             border-radius: 8px;
-            box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.3);
+            box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.8);
          }
 
          .card_left {
