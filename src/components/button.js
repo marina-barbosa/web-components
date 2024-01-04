@@ -1,3 +1,5 @@
+
+
 class Button extends HTMLElement {
 
     constructor() {
@@ -7,7 +9,7 @@ class Button extends HTMLElement {
 
         // base do componente
         const componentRoot = document.createElement('button');
-        componentRoot.textContent = this.getAttribute('hello'); // prop
+        componentRoot.textContent = 'Hello';
 
         // estilizar o componente
         const style = document.createElement('style');
@@ -18,13 +20,15 @@ class Button extends HTMLElement {
                 border: 2px solid #111;
                 border-radius: 5px;
                 color: #fa71ad;
+                font-weight: bold;
             }
         `;
 
         // adicionar comportamento ao botão
-        componentRoot.addEventListener('click', () => {
-            alert('Botão clicado!');
-        });
+        // componentRoot.addEventListener('click', () => {
+        //     alert('Botão clicado!');
+        // });
+
 
         // enviar para shadow
         shadow.appendChild(componentRoot);

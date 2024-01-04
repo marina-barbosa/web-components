@@ -1,0 +1,158 @@
+Desenvolver o código “Hello World” é uma prática comum entre as pessoas que estão aprendendo a programar ou desejam conhecer uma nova linguagem de programação. Normalmente é um dos primeiros contato com as características da linguagem utilizada.
+
+O Hello World é um programa simples, com poucas linhas de código e que retorna a mensagem “Olá, mundo!” na tela. Desenvolver um código de exemplo em uma linguagem de programação que não conhecemos é importante para termos noção de como ela funciona. Para lhe explicar o que é esse código e como ele se comporta em cada linguagem, preparamos este post com os seguintes tópicos:
+
+O que é “Hello World” na programação?
+Javascript Hello World
+Java Hello World
+Python Hello World
+CSS Hello World
+Boa leitura!
+
+O que é “Hello World” na programação?
+O “Olá, mundo”, em português, é um pequeno código que pode ser desenvolvido em diferentes linguagens de programação. Seu objetivo é facilitar o conhecimento da estrutura básica e o funcionamento da linguagem. Por isso, pode ser desenvolvido em várias linguagens como C++ Hello World , PHP Hello World, HTML Hello World, C Hello World e em muitas outras.
+
+Ele também serve para verificar se um ambiente está preparado adequadamente, pois a instalação de algumas linguagens de programação em um computador pode requerer outras instalações e configurações. Assim, o Hello World também é uma forma de verificar se o ambiente está configurado de maneira adequada. Portanto, se o programa funcionar, é sinal que está tudo certo com a preparação da máquina.
+
+JavaScript Hello World
+Basicamente, a linguagem JavaScript precisa do navegador para funcionar e de um de editor de texto para escrever o código. Seu objetivo é permitir a manipulação dos elementos de uma página HTML para torná-la mais dinâmica e interativa.
+
+Em códigos mais extensos, o ideal é criá-lo em um arquivo separado com a extensão .js e adicioná-lo à página ou à aplicação em que for utilizá-lo. Como o nosso exemplo é conciso, escrevemos o código dentro do HTML. Veja o algoritmo a seguir.
+
+
+Java Hello World
+A linguagem Java pode ser utilizada tanto para aplicações back-end quanto em aplicações web. Por ser uma linguagem que utiliza o paradigma de programação orientada a objetos, tudo o que é feito em Java é baseado em classes, inclusive o programa “Olá, mundo”. Confira o código a seguir.
+
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+// saída: Hello, World!
+﻿
+Newsletter da TrybeJunte-se a mais de 100.000 pessoas da nossa tribo que recebem conteúdos gratuitos e exclusivos em nossa newsletter semanal!
+Seu e-mail
+Python Hello World
+A linguagem Python é multiparadigma, o que significa que é possível programar em diferentes estilos de programação. Ela é utilizada em sistemas para desktop e em aplicações web. Além disso, ela é muito simples e objetiva, ou seja, não precisa escrever muitas linhas de códigos para executar uma ação. Veja o exemplo do Hello World em Python.
+
+>>> print("Hello, World!")
+Hello, World!
+>>>
+﻿
+Sim, é só isso o código para exibirmos uma mensagem em Python! Por isso, fizemos outro exemplo, agora com interação com a pessoa usuária.
+
+>>> nome = input("Qual é o seu nome?")
+Qual é o seu nome?João
+>>> print("Olá, " + nome)
+Olá, João
+>>>
+﻿
+CSS Hello World
+O CSS — Cascading Style Sheets — que significa folhas de estilo em cascata, não é uma linguagem de programação, mas é utilizado em conjunto com as tags HTML para fornecer características a elas, como as cores das fontes, definir o tamanho de imagens e muito mais.
+
+Assim como em JavaScript, o ideal é criarmos um arquivo separado com a extensão .css com os estilos que serão utilizados e adicioná-los à página ou à aplicação em que será estilizada. Confira, a seguir, como estilizar uma página HTML com CSS.
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello, World</title>
+</head>
+<body>
+    <p>Hello, World!</p>
+    <style type="text/css">
+        p {
+            color:green;
+            font-size: x-large;
+            text-align: center;
+        }
+    </style>
+</body>
+</html>
+﻿
+O código Hello World é utilizado tanto para obtermos o primeiro contato com a linguagem de programação, quanto como uma forma de verificar se o ambiente está preparado adequadamente. Além disso, é um recurso importante para facilitar o entendimento básico da linguagem. Por isso, é tão famoso entre as pessoas que desenvolvem softwares.
+
+
+
+////////////////////////////////
+///////////////////////////////
+///////////////////////////////
+
+
+A Origem Do Termo “Hello World” Na Programação: Uma Introdução Aos Bastidores!
+Introdução
+O termo “Hello World” é amplamente conhecido e reverenciado no mundo da programação. É uma frase simples, mas com um significado profundo e histórico. Neste artigo, vamos mergulhar nos bastidores e explorar a origem desse termo icônico, descobrindo como ele se tornou um símbolo de introdução à programação.
+
+Origem Histórica e Primeira Utilização
+A história do “Hello World” remonta às primeiras décadas da programação de computadores. Embora seja difícil determinar o exato momento em que o termo foi usado pela primeira vez, sua origem pode ser rastreada até os primórdios da linguagem C, desenvolvida por Dennis Ritchie na década de 1970.
+
+Acredita-se que o primeiro exemplo de “Hello World” tenha sido criado por Brian Kernighan, coautor do livro “The C Programming Language”. Em sua obra, Kernighan incluiu um programa simples em C que exibia a frase “hello, world” na tela. Esse programa foi adotado como um padrão informal para testar a funcionalidade básica de uma nova linguagem de programação.
+
+Propósito Original e Evolução
+Inicialmente, o propósito do “Hello World” era verificar se um compilador estava funcionando corretamente. Os programadores usavam esse pequeno programa para testar se a sintaxe e a estrutura básica de uma linguagem de programação estavam corretas. O “Hello World” servia como uma espécie de marco inicial, garantindo que o ambiente de desenvolvimento estivesse configurado corretamente.
+
+Com o tempo, o “Hello World” evoluiu além de sua função puramente técnica. Ele se tornou uma introdução amigável ao mundo da programação, um ponto de partida para iniciantes que estavam aprendendo uma nova linguagem. O simples ato de fazer um programa exibir a frase “Hello World” na tela proporcionava uma sensação de conquista e encorajava os programadores a prosseguirem em sua jornada de aprendizado.
+
+Importância e Presença Contínua
+Mesmo em um mundo de desenvolvimento de software cada vez mais avançado, o “Hello World” continua a desempenhar um papel fundamental. Ele serve como um lembrete constante de que toda jornada começa com um primeiro passo, mesmo que seja apenas uma mensagem de saudação em um programa.
+
+Além disso, o “Hello World” é uma tradição estabelecida. Ele une programadores em todo o mundo, independentemente da linguagem ou da área de atuação. É um código que todos entendem e com o qual se identificam, criando uma conexão entre as pessoas que compartilham a paixão pela programação.
+
+Reflexão Final
+À medida que exploramos a origem e a evolução do termo “Hello World”, podemos apreciar sua importância como um ponto de partida para novos programadores. Ele nos lembra que a jornada da programação começa com um simples “Hello World” e nos incentiva a continuar aprendendo e explorando o vasto universo da programação.
+
+Conforme avançamos neste artigo, mergulharemos em tópicos relacionados, como exemplos de “Hello World” em diferentes linguagens de programação e seu uso em materiais e sites para testes. Continue lendo para descobrir mais sobre como esse termo se tornou uma parte essencial do mundo da programação.
+
+Exemplos de “Hello World” em Diferentes Linguagens de Programação
+Embora o conceito de “Hello World” seja universal, sua implementação pode variar de uma linguagem de programação para outra. Aqui estão alguns exemplos de como o “Hello World” é escrito em diferentes linguagens populares:
+
+Python:
+pythonCopy code
+print("Hello, World!")
+Java:
+javaCopy code
+public class HelloWorld { public static void main(String[] args) { System.out.println("Hello, World!"); } }
+C++:
+cppCopy code
+#include <iostream> int main() { std::cout << "Hello, World!" << std::endl; return 0; }
+JavaScript:
+javascriptCopy code
+console.log("Hello, World!");
+Esses são apenas alguns exemplos, mas cada linguagem de programação possui sua própria sintaxe para exibir a mensagem “Hello, World!” na tela. Experimente escrever o “Hello World” em diferentes linguagens para se familiarizar com as peculiaridades de cada uma.
+
+Uso do “Hello World” em Materiais e Sites para Testes
+O “Hello World” é comumente utilizado em materiais educacionais e sites voltados para o aprendizado e testes de programação. Aqui estão alguns exemplos de como ele é aplicado:
+
+Tutoriais de Introdução: Ao aprender uma nova linguagem, muitos tutoriais começam com um exemplo de “Hello World”. Isso permite que os iniciantes se familiarizem com a sintaxe básica e vejam um programa simples em ação.
+Documentação de Linguagens: A documentação oficial das linguagens de programação frequentemente inclui um exemplo de “Hello World” para ajudar os desenvolvedores a começar rapidamente.
+Ambientes de Programação Online: Plataformas como o JSFiddle ou o Repl.it permitem que os programadores escrevam e executem códigos online. O “Hello World” é frequentemente usado como um primeiro programa para testar esses ambientes.
+Sites de Teste: Muitos sites oferecem um ambiente de teste onde os programadores podem experimentar diferentes linguagens e frameworks. O “Hello World” é um exemplo comum usado nesses casos para verificar se tudo está configurado corretamente.
+Esses são apenas alguns exemplos de como o “Hello World” é utilizado em materiais e sites para testes. Sua simplicidade e propósito introdutório o tornam uma escolha popular para essas situações.
+
+Conclusão
+O termo “Hello World” na programação tem uma origem rica e uma presença contínua como ponto de partida para iniciantes. Ele transcende as linguagens de programação e se tornou um símbolo de introdução amigável ao mundo da codificação. Ao entender a origem histórica do “Hello World” e sua evolução, podemos apreciar seu papel significativo na comunidade de desenvolvedores.
+
+Agora que exploramos a origem e a importância do “Hello World”, vamos aprofundar ainda mais esse tópico. No próximo segmento, abordaremos as alternativas criativas ao “Hello World” e como os programadores incorporam personalidade e diversão em seus primeiros programas.
+
+Alternativas Criativas para o “Hello World”
+Embora o “Hello World” seja uma introdução clássica à programação, os programadores muitas vezes adicionam seu toque pessoal, humor ou criatividade aos seus primeiros programas. Aqui estão algumas alternativas criativas para o “Hello World”:
+
+Mensagens Personalizadas: Em vez de exibir apenas “Hello, World!”, os programadores podem criar mensagens personalizadas que reflitam sua personalidade ou o propósito específico do programa. Por exemplo:
+pythonCopy codeprint("Welcome to the Programming World!")
+javaCopy codeSystem.out.println("Coding Journey Begins!");
+Mensagens em Outros Idiomas: Programadores multilíngues podem optar por exibir a mensagem de boas-vindas em diferentes idiomas, adicionando um toque cultural ao programa. Por exemplo:
+javascriptCopy codeconsole.log("¡Hola, Mundo!"); // Espanhol
+cppCopy code#include <iostream> int main() { std::cout << "Bonjour, Monde!" << std::endl; // Francês return 0; }
+Elementos Visuais: Alguns programadores vão além do texto e adicionam elementos visuais aos seus programas de introdução. Isso pode ser feito por meio de gráficos simples ou até mesmo animações básicas, dependendo da linguagem e da capacidade do ambiente de desenvolvimento.
+Mensagens Divertidas: Para adicionar um toque de humor, os programadores muitas vezes criam mensagens engraçadas em seus programas de introdução. Essas mensagens podem variar de piadas a referências culturais ou memes. Por exemplo:
+pythonCopy code
+print("Hello, World! Did you bring pizza?");
+Essas alternativas criativas ao “Hello World” não apenas demonstram a criatividade dos programadores, mas também tornam a experiência de aprendizado mais envolvente e divertida. Elas permitem que os iniciantes expressem sua individualidade desde o início de sua jornada na programação.
+
+Conclusão
+O “Hello World” é mais do que apenas um simples programa que exibe uma mensagem na tela. Ele tem uma origem histórica rica, sendo um marco inicial para programadores em todo o mundo. Através do “Hello World”, os desenvolvedores aprendem a sintaxe básica de uma linguagem, verificam a configuração correta do ambiente e iniciam sua jornada na programação.
+
+Ao explorar as alternativas criativas para o “Hello World”, podemos ver como os programadores adicionam sua personalidade, humor e criatividade a seus primeiros programas. Essas variações refletem a diversidade e a individualidade da comunidade de desenvolvedores.
+
+Espero que este artigo tenha fornecido uma compreensão abrangente do termo “Hello World” na programação e de como ele é usado em materiais, conteúdos e sites para testes. Lembre-se de que o “Hello World” é apenas o começo de uma jornada fascinante no mundo da programação, e há muito mais para aprender e explorar!
