@@ -9,7 +9,7 @@ class Button extends HTMLElement {
 
         // base do componente
         const componentRoot = document.createElement('button');
-        componentRoot.textContent = 'Hello';
+        componentRoot.textContent = ' ';
 
         // estilizar o componente
         const style = document.createElement('style');

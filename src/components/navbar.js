@@ -37,6 +37,7 @@ class NavBar extends HTMLElement {
             a {                
                 text-decoration: none;
                 color: #fff;
+                font-weight: bold;
                 margin: auto 50px;
             }
         `;

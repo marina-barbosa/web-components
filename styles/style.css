@@ -23,7 +23,16 @@ body {
     align-items: center;
 }
 
-but-ton {
-  position: absolute;
-  top: 52%;
+.card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 600px;
+    height: 500px;
+    padding:20px;
+    background: #ffffff30;
+    border: 2px solid #111;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.3);
 }

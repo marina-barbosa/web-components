@@ -15,7 +15,7 @@ class SimpleCard extends HTMLElement {
         const componentRoot = document.createElement('div');
 
         const title = document.createElement('p');
-        title.textContent = `System.out.println('Olá Mundo!')`;
+        title.textContent = `WriteLn('hello world!');`;
 
         const buttonHello = document.createElement('but-ton');
 
