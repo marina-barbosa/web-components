@@ -1,13 +1,20 @@
 # web-components
+Exercício de Web Components Personalizados
 
 deploy -> https://marina-barbosa.github.io/web-components/index.html
-Exercício de Web Components Personalizados
 
 Este repositório contém o código desenvolvido como exercício do curso ministrado pelo professor Felipe Aguiar, oferecido pela Digital Innovation One (DIO), focado em Web Components personalizados.
 
 ## Descrição
 
 Neste projeto, explorei os conceitos de Web Components para criar elementos HTML personalizados, utilizando as principais funcionalidades dessa tecnologia. Aprendi a criar componentes reutilizáveis e encapsulados, oferecendo uma abordagem mais modular e escalável para o desenvolvimento web.
+
+<div align='center'>  
+  
+![GIF](https://github.com/marina-barbosa/web-components/blob/master/assets/Captura%20de%20tela%202024-01-10%20085845.png)
+  
+![GIF](https://github.com/marina-barbosa/web-components/blob/master/assets/Captura%20de%20tela%202024-01-10%20085858.png)
+</div>
 
 ## Tecnologias Utilizadas
 
